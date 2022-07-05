@@ -15,4 +15,7 @@ const total = numbers
     .reduce((acc, number) => acc + number
 , 0)
 
-console.log('total', total);
+console.log('total', total); 
+
+const resta = fruitsNames
+    .reduce((acc, fruit) => [...acc][0].concat[...fruit] )
